@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url("images/bg-intro-desktop.png");
+    color: #fff;
+  }
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    
+  }
+
+  .container{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .form-container {
+    
+
+
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+
+  button {
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3bce0e;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .above-btn{
+    width: 100%;
+    margin-bottom: 20px;
+    
+    background-color: hsl(249, 76%, 36%);
+  }
+  .below-btn{
+    width: 90%;
+    margin: 5px 10px;
+    background-color: hsl(154, 59%, 51%);
+    
+    margin-bottom: 20px;
+
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .form-group {
+    padding: 10px 20px;
+
+    
+  }
+
+  input[type="password"]
+  input[type="text"],
+  input[type="email"],
+  input[type="firstname"],
+  input[type="lastname"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #fff;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+
+  
+  button:hover {
+    background-color: #5cb300;
+  }
+
+  
+@media screen and (max-width: 850px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: hsl(0, 100%, 74%) ;
+        background-image: url("images/bg-intro-mobile.png");
+        color: #fff;
+      }
+
+      main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+      }
+
+}
+
+@media screen and (max-width: 569px) {
+
+}
+
+@media screen and (max-width: 410px) {
+
+}
